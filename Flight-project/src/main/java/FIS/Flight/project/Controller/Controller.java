@@ -206,19 +206,7 @@ public class Controller {
 		return scheduledrepo.scheduledflight(date, city);
 
 	}
-	
-//	@GetMapping("flights")
-//	public List<Flight> listFlight()
-//	{
-//		return flightrepo.findAll();
-//	}
-//	
-//	@GetMapping("schflights/no")
-//	public List<ScheduledFlight> listscheduledFlight(@PathVariable("no") String no)
-//	{
-//		return flightrepo.findById(no).get().flight_sf;
-//
-//	}
+
 	
 
 }
